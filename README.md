@@ -3,7 +3,8 @@ Set of exercises solved in R
 
     Lab 1:
   1) Program creates two vectors, each storing the amount of a good that was sold in the last six days. Program then calcultes the profit each person made by multiplying each person's vector by their price and sums all entries. Then the total profit of both vectors is displayed. 
-  
+
+
     Lab 2:
   1) Find three different ways to create a vector with elements: 10, 9, 8, 7, 6.
   
@@ -39,12 +40,13 @@ Set of exercises solved in R
     
   9) Create a character vector consisting of 10 symbols denoting gender(F, M). Then generate a vector of positive numbers that will store the pay of people from 1200zł to 10000zł. Then create a vector in which you will convert the women's salary to Euros.
   
+  
     Lab 3:
   1) Create a vector of 100 natural numbers from the set {1,2,3,4}, then transform it into a factor by giving it the following labels ("red", "green", "blue", "yellow"). Check how many times each color repeats.
   
   2) Consider the iris data set in R. Write an R expression that will cut the Sepal.Length variable and create the following factor with five levels.
   
- (4.3,5.02] (5.02,5.74] (5.74,6.46] (6.46,7.18]  (7.18,7.9] 
+   (4.3,5.02] (5.02,5.74] (5.74,6.46] (6.46,7.18]  (7.18,7.9] 
          32          41          42          24          11	
          
   3) Consider again the iris data set. Write an R expression that will generate a two-way frequency table with two rows and three colums. The rows should relate to Sepal.length (less than 5: TRUE or FALSE) and columns to Species, with the following output:
