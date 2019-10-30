@@ -73,3 +73,37 @@ Set of exercises solved in R
    and find vectors Id and Letter.
 
   6) With the dataset swiss, create a data frame of only the rows 1, 2, 3, 10, 11, 12 and 13, and only the variables Examination, Education and Infant.Mortality.
+  
+  
+    Lab 3:
+    
+  1) Create a vector of 100 natural numbers from the set {1,2,3,4}, then transform it into a factor by giving it the following labels ("red", "green", "blue", "yellow"). Check how many times each color repeats.
+
+  2) Consider the iris data set in R. Write an R expression that will cut the Sepal.Length variable and create the following factor with five levels.
+ (4.3,5.02] (5.02,5.74] (5.74,6.46] (6.46,7.18]  (7.18,7.9] 
+         32          41          42          24          11	
+   
+  3) Consider again the iris data set. Write an R expression that will generate a two-way frequency table with two rows and three colums. The rows should relate to Sepal.length (less than 5: TRUE or FALSE) and columns to Species, with the following output:
+        setosa versicolor virginica
+  FALSE     30         49        49
+  TRUE      20          1         1	
+   
+  4) Consider a vector x such that: x<-c(1,3,4,7,11,18,29). Write an R statement that will return a list x2 with components of value: x*2,x/2,sqrt(x) and names "x*2","x/2","sqrt(x)". Write an R statement that will return a vector: 2.000000 2.645751 3.316625
+  
+  5) Consider two vectors: x=seq(1,43,along.with=Id) and y=seq(-20,0,along.with=Id). Create a data.frame df:
+        Id Letter         x          y
+    1   1      a  1.000000 -20.000000
+    2   1      b  4.818182 -18.181818
+    3   1      c  8.636364 -16.363636
+    4   2      a 12.454545 -14.545455
+    5   2      b 16.272727 -12.727273
+    6   2      c 20.090909 -10.909091
+    7   3      a 23.909091  -9.090909
+    8   3      b 27.727273  -7.272727
+    9   3      c 31.545455  -5.454545
+    10  4      a 35.363636  -3.636364
+    11  4      b 39.181818  -1.818182
+    12  4      c 43.000000   0.000000
+    Find vectors Id and Letter.
+
+ 6) With the dataset swiss, create a data frame of only the rows 1, 2, 3, 10, 11, 12 and 13, and only the variables Examination, Education and Infant.Mortality.
