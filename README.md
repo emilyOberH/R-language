@@ -108,16 +108,17 @@ Set of exercises solved in R
 
  6) With the dataset swiss, create a data frame of only the rows 1, 2, 3, 10, 11, 12 and 13, and only the variables Examination, Education and Infant.Mortality.
    
+   
   
         Lab 4:
     
-  1 ) Create a temp list of seven elements. Each element is a vector of 5 random real numbers (try to use the lapply function). Include the names of the days of the week in the temp list. For temp list:
+  1. Create a temp list of seven elements. Each element is a vector of 5 random real numbers (try to use the lapply function). Include the names of the days of the week in the temp list. For temp list:
                 -generate a vector with minimum temperatures every day
                 -generate a vector with maximum temperatures every day
 
-  2 ) In the game of craps, the player (the "shooter") throws two six-sided dice. If the total is 2, 3, or 12, then the shooter loses. If the total is 7 or 11, she wins. If the total is any other score, then that score becomes the new target, known as the "point". Write two functions, that generates a game status and point as in the table.
+  2. In the game of craps, the player (the "shooter") throws two six-sided dice. If the total is 2, 3, or 12, then the shooter loses. If the total is 7 or 11, she wins. If the total is any other score, then that score becomes the new target, known as the "point". Write two functions, that generates a game status and point as in the table.
  
-  3 ) This is the text for the famous “sea shells” tongue twister: text<-"She sells seashells by the seashore. The shells she sells are surely seashells.So if she sells shells on the seashore, I'm sure she sells seashore shells."
+  3. This is the text for the famous “sea shells” tongue twister: text<-"She sells seashells by the seashore. The shells she sells are surely seashells.So if she sells shells on the seashore, I'm sure she sells seashore shells."
 Use the nchar and laaply functions to calculate the number of letters in each word and find data frame of the form:
 
     word           number
