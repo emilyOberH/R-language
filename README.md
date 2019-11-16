@@ -107,3 +107,46 @@ Set of exercises solved in R
     Find vectors Id and Letter.
 
  6) With the dataset swiss, create a data frame of only the rows 1, 2, 3, 10, 11, 12 and 13, and only the variables Examination, Education and Infant.Mortality.
+ 
+
+        Lab 4:
+    
+ 1) Create a temp list of seven elements. Each element is a vector of 5 random real numbers (try to use the lapply function). Include the names of the days of the week in the temp list. For temp list:
+                -generate a vector with minimum temperatures every day
+                -generate a vector with maximum temperatures every day
+                
+ 2) In the game of craps, the player (the "shooter") throws two six-sided dice. If the total is 2, 3, or 12, then the shooter loses. If the total is 7 or 11, she wins. If the total is any other score, then that score becomes the new target, known as the "point". Write two functions, that generates a game status and point as in the table.
+ 
+ 3) This is the text for the famous “sea shells” tongue twister: text<-"She sells seashells by the seashore. The shells she sells are surely seashells.
+    
+So if she sells shells on the seashore, I'm sure she sells seashore shells."
+Use the nchar and laaply functions to calculate the number of letters in each word and find data frame of the form:
+
+         word           number
+    [1,] "She"          "3"   
+    [2,] "sells"        "5"   
+    [3,] "seashells"    "9"   
+    [4,] "by"           "2"   
+    [5,] "the"          "3"   
+    [6,] "seashore."    "9"   
+    [7,] "The"          "3"   
+    [8,] "shells"       "6"   
+    [9,] "she"          "3"   
+    [10,] "sells"        "5"   
+    [11,] "are"          "3"   
+    [12,] "surely"       "6"   
+    [13,] "seashells.\n" "11"  
+    [14,] "So"           "2"   
+    [15,] "if"           "2"   
+    [16,] "she"          "3"   
+    [17,] "sells"        "5"   
+    [18,] "shells"       "6"   
+    [19,] "on"           "2"   
+    [20,] "the"          "3"   
+    [21,] "seashore,"    "9"   
+    [22,] "I'm"          "3"   
+    [23,] "sure"         "4"   
+    [24,] "she"          "3"   
+    [25,] "sells"        "5"   
+    [26,] "seashore"     "8"   
+    [27,] "shells."      "7" 
