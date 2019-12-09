@@ -149,3 +149,13 @@ Use the nchar and laaply functions to calculate the number of letters in each wo
     [25,] "sells"        "5"   
     [26,] "seashore"     "8"   
     [27,] "shells."      "7" 
+    
+      
+    Lab 5:
+    
+  1) Using the Vegetation dataset: plot the observations from 1958 to 1974 as green filled squares and the observations from 1981 to 2002 as red filled circles.
+  
+  2) Using the Vegetation dataset: plot BARESOIL against species richness using a large filled dot for observations made in 2002 and a smaller filled dot for all other observations.
+  
+  3) Make a default boxplot of Sepal.Width stratified by Species, from iris dataset. Change the range of the y-axis so it starts at 2 and ends at 4.5.
+
